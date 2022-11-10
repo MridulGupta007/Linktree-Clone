@@ -1,7 +1,5 @@
-var seconds=0
- function displaySeconds(){
-    seconds += 1
-    document.getElementById("link").innerText="This page will redirect in "+ seconds +" Seconds"
- }
-
- setInterval(displaySeconds, 5000);
+let url = document.getElementsByClassName('link').textContent
+ 
+setTimeout(function(){
+   window.location.replace(url)
+}, 5000)
