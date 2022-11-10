@@ -1,0 +1,86 @@
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    /*background: linear-gradient(to bottom right, #E97777, #FF9F9F, #FCDDB0, #FFFAD7);*/
+    background: linear-gradient(to bottom right, grey, whitesmoke);
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.profile{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    margin: 1em;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    color: whitesmoke;
+}
+
+.links{
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: 3em;
+    width: 30em;
+    border: none;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 0;
+    border-radius: 25px;
+    transition: 0.2s ease-in-out;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-1{
+    height: 25px;
+    width: 25px;
+    margin: 1em ;
+}
+
+.social-2{
+    height: 30px;
+    width: 150px;
+    margin: 1.5em;
+}
+
+
+
+
+
+
+
